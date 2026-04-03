@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace geometry_4_9
-
 namespace p146_main
 theorem Pressley_1_1_1 :
   let γ (t : ℝ) : ℝ × ℝ := (t^2, t^4)
@@ -396,5 +393,3 @@ theorem Petersen_9_3
   sorry
 end p170_main
 
-end geometry_4_9
-end BenchmarkData49

@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace combinatorial_4_9
-
 namespace p52_main
 theorem bona_1(n : ℕ) :
     Fintype.card { f : Fin n → Fin n // Function.Bijective f } = Nat.factorial n := by
@@ -374,5 +371,3 @@ theorem Lovasz_23
   sorry
 end p74_main
 
-end combinatorial_4_9
-end BenchmarkData49

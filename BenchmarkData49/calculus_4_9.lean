@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace calculus_4_9
-
 namespace p26_main
 theorem dawkins_2_4_1c
   (f g h : ℝ → ℝ)
@@ -205,5 +202,3 @@ theorem strang_14_2_31 :
   sorry
 end p51_main
 
-end calculus_4_9
-end BenchmarkData49

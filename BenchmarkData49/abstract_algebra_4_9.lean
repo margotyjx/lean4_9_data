@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace abstract_algebra_4_9
-
 namespace p0_main
 theorem Gallian_1
     {G : Type*} [Group G] [Fintype G] [IsCyclic G]
@@ -236,5 +233,3 @@ theorem Q26
   sorry
 end p25_main
 
-end abstract_algebra_4_9
-end BenchmarkData49

@@ -1,0 +1,119 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ././././BenchmarkData49/fourier_analysis_4_9.lean -R ./././. -o ././.lake/build/lib/BenchmarkData49/fourier_analysis_4_9.olean -i ././.lake/build/lib/BenchmarkData49/fourier_analysis_4_9.ilean -c ././.lake/build/ir/BenchmarkData49/fourier_analysis_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:16:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:42:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:58:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:69:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:81:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:107:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:137:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:170:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:193:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:203:5: unused variable `h0`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:205:10: unused variable `h1`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:207:10: unused variable `h2`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:215:9: unused variable `h`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:220:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:226:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:234:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:241:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:254:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:265:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:280:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:289:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:296:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:309:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:321:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:337:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:356:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:384:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:414:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:427:5: unused variable `h`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:448:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:465:5: unused variable `h`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:486:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:499:5: unused variable `h`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:519:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:543:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:571:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:588:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/fourier_analysis_4_9.lean:613:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "3518742855185632489"}

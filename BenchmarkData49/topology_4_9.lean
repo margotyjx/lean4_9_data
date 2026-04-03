@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace topology_4_9
-
 namespace p266_main
 structure ExactFiniteComplex
     (𝕜 : Type*) [Field 𝕜]
@@ -173,5 +170,3 @@ theorem Hatcher_25 :
   sorry
 end p290_main
 
-end topology_4_9
-end BenchmarkData49

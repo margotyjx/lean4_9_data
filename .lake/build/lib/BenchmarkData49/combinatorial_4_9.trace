@@ -1,0 +1,74 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ././././BenchmarkData49/combinatorial_4_9.lean -R ./././. -o ././.lake/build/lib/BenchmarkData49/combinatorial_4_9.olean -i ././.lake/build/lib/BenchmarkData49/combinatorial_4_9.ilean -c ././.lake/build/ir/BenchmarkData49/combinatorial_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:16:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:22:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:31:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:52:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:62:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:69:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:84:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:95:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:107:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:116:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:122:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:140:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:146:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:152:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:163:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:188:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:199:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:219:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:265:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:289:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:305:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:336:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/combinatorial_4_9.lean:364:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "14744665580079817671"}

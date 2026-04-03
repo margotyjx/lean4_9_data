@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace fourier_analysis_4_9
-
 namespace p90_main
 theorem brown_1
     (k : ℝ)
@@ -629,5 +626,3 @@ theorem kammler_27
   sorry
 end p120_main
 
-end fourier_analysis_4_9
-end BenchmarkData49

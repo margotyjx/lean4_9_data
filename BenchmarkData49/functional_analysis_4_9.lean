@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace functional_analysis_4_9
-
 namespace p121_main
 def lpSpace (p : ℝ) : Type :=
   { a : ℕ → ℂ // Summable (fun j ↦ ‖a j‖ ^ p) }
@@ -343,5 +340,3 @@ theorem rudin_5_25
   sorry
 end p145_main
 
-end functional_analysis_4_9
-end BenchmarkData49

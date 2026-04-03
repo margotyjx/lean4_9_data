@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace probabilities_4_9
-
 namespace p228_main
 theorem problem_1a
   (μx μy : MeasureTheory.Measure ℝ)
@@ -871,5 +868,3 @@ theorem problem_38
   sorry
 end p265_main
 
-end probabilities_4_9
-end BenchmarkData49

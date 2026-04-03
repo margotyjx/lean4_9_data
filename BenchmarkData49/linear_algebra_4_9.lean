@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace linear_algebra_4_9
-
 namespace p171_main
 abbrev R3 := EuclideanSpace ℝ (Fin 3)
 noncomputable def w : Fin 3 → R3 :=
@@ -286,5 +283,3 @@ theorem question_20
   sorry
 end p190_main
 
-end linear_algebra_4_9
-end BenchmarkData49

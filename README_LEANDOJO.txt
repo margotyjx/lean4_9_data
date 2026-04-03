@@ -20,6 +20,11 @@ Export: full dataset (all categories, every row in prover_problems.jsonl)
    /export/jyuan98/benchmarkdata_lean4/lean4_benchmark/leandojo_data49_package/data49_leandojo.jsonl
 
 4) Environment:
-   export GITHUB_ACCESS_TOKEN=...   # for LeanDojo GitHub API
+   export GITHUB_ACCESS_TOKEN=...   # for LeanDojo GitHub API (private repos need repo scope)
+
+5) Private GitHub repos:
+   LeanDojo reads lean-toolchain via https://raw.githubusercontent.com/... without sending your token.
+   Private repos return 404 there, so Dojo init fails even when the API works. Fix: make this dataset
+   repo public, or host a public mirror used only for the benchmark.
 
 JSONL path: /export/jyuan98/benchmarkdata_lean4/lean4_benchmark/leandojo_data49_package/data49_leandojo.jsonl

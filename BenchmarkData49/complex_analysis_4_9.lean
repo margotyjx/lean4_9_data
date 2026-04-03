@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace complex_analysis_4_9
-
 namespace p75_main
 theorem question_1 :
     (∮ z in C((5 : ℂ), (5 : ℝ)),
@@ -163,5 +160,3 @@ theorem question_15 :
   sorry
 end p89_main
 
-end complex_analysis_4_9
-end BenchmarkData49

@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace logic_4_9
-
 namespace p191_main
 inductive NiceTerm
   | a | b | c | d
@@ -519,5 +516,3 @@ theorem logic_prob_26
   sorry
 end p216_main
 
-end logic_4_9
-end BenchmarkData49

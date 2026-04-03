@@ -1,0 +1,32 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ././././BenchmarkData49/topology_4_9.lean -R ./././. -o ././.lake/build/lib/BenchmarkData49/topology_4_9.olean -i ././.lake/build/lib/BenchmarkData49/topology_4_9.ilean -c ././.lake/build/ir/BenchmarkData49/topology_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:30:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:47:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:61:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:75:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:87:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:101:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:144:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:158:51: unused variable `h`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././BenchmarkData49/topology_4_9.lean:167:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "17678140299256024200"}

@@ -12,9 +12,6 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace BenchmarkData49
-namespace number_theory_4_9
-
 namespace p218_main
 theorem question_1 (n : ℕ) :
   Nonempty (Group (Units (ZMod n))) := by
@@ -121,5 +118,3 @@ theorem question_10 :
   sorry
 end p227_main
 
-end number_theory_4_9
-end BenchmarkData49
