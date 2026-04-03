@@ -1,0 +1,167 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ./././BenchmarkData49/probabilities_4_9.lean -R ./././BenchmarkData49 -o ././.lake/build/lib/probabilities_4_9.olean -i ././.lake/build/lib/probabilities_4_9.ilean -c ././.lake/build/ir/probabilities_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:19:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:31:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:72:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:95:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:109:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:117:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:126:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:141:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:156:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:170:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:185:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:204:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:214:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:229:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:238:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:248:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:257:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:268:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:280:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:293:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:300:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:311:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:324:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:337:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:358:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:373:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:388:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:400:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:413:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:422:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:431:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:441:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:451:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:460:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:473:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:486:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:502:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:515:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:528:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:540:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:563:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:578:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:591:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:615:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:637:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:649:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:664:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:697:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:715:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:734:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:747:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:754:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:781:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/probabilities_4_9.lean:815:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "7241071051050243573"}

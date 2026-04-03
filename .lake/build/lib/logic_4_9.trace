@@ -1,0 +1,92 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ./././BenchmarkData49/logic_4_9.lean -R ./././BenchmarkData49 -o ././.lake/build/lib/logic_4_9.olean -i ././.lake/build/lib/logic_4_9.ilean -c ././.lake/build/ir/logic_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:33:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:41:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:47:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:64:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:87:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:96:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:139:14: unused variable `v`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:142:14: unused variable `v`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:161:18: unused variable `v`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:164:18: unused variable `v`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:167:14: unused variable `v`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:202:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:213:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:224:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:230:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:236:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:273:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:279:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:292:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:312:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:353:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:371:41: unused variable `I`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:372:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:406:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:419:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:440:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:451:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:491:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/logic_4_9.lean:497:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "5138819852730587471"}

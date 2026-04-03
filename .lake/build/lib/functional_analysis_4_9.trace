@@ -1,0 +1,89 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ./././BenchmarkData49/functional_analysis_4_9.lean -R ./././BenchmarkData49 -o ././.lake/build/lib/functional_analysis_4_9.olean -i ././.lake/build/lib/functional_analysis_4_9.ilean -c ././.lake/build/ir/functional_analysis_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:25:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:33:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:40:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:50:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:64:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:97:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:116:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:124:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:134:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:145:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:169:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:181:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:189:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:200:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:212:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:221:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:239:3: unused variable `norm`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:239:18: unused variable `T`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:243:3: unused variable `norm`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:245:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:258:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:267:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:281:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:295:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:304:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:313:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:325:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/functional_analysis_4_9.lean:334:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "2445027236978745193"}

@@ -1,0 +1,35 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH=././.lake/build/lib /export/jyuan98/elan/toolchains/leanprover--lean4---v4.9.0/bin/lean -DautoImplicit=false ./././BenchmarkData49/number_theory_4_9.lean -R ./././BenchmarkData49 -o ././.lake/build/lib/number_theory_4_9.olean -i ././.lake/build/lib/number_theory_4_9.ilean -c ././.lake/build/ir/number_theory_4_9.c --json",
+   "level": "trace"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:19:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:25:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:32:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:63:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:78:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:90:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:96:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:102:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:113:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "./././BenchmarkData49/number_theory_4_9.lean:119:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "11957251391543953402"}
