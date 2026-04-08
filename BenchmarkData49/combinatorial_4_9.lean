@@ -313,7 +313,6 @@ theorem Lovasz_21
 end p72_main
 
 namespace p73_main
-namespace Lovasz22
 def neighFinset {V : Type*} [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj] (v : V) : Finset V :=
   Finset.univ.filter (fun w => G.Adj v w)
 def gdeg {V : Type*} [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj] (v : V) : ℕ :=
@@ -342,7 +341,6 @@ theorem Lovasz_22
     (hdeg  : r ≥ n + 1) :
     HasHamiltonianCycle G := by
   sorry
-end Lovasz22
 end p73_main
 
 namespace p74_main

@@ -28,6 +28,7 @@ uint8_t l_Fintype_decidableEqEquivFintype___rarg(lean_object*, lean_object*, lea
 LEAN_EXPORT lean_object* l_Equiv_Perm_cycleOf___at_p59__main_numTables___spec__17___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Multiset_filter___at_p59__main_numTables___spec__4(lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p58__main_usedHotels___spec__8(lean_object*, lean_object*, size_t, size_t, lean_object*);
+LEAN_EXPORT lean_object* l_p73__main_neighFinset___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_sumCompl___at_p59__main_numTables___spec__21___rarg___lambda__1___boxed(lean_object*);
 LEAN_EXPORT lean_object* l_p70__main_neighFinset___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_subtypeCongr___at_p59__main_numTables___spec__20___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
@@ -39,13 +40,14 @@ LEAN_EXPORT lean_object* l_Multiset_dedup___at_p59__main_numTables___spec__9(lea
 lean_object* l_Equiv_Perm_subtypePerm___rarg(lean_object*, lean_object*);
 static lean_object* l_Equiv_sumCompl___at_p59__main_numTables___spec__21___rarg___closed__1;
 LEAN_EXPORT lean_object* l_Equiv_Perm_cycleFactorsAux___at_p59__main_numTables___spec__22(lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_gdeg(lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_extendDomain___at_p59__main_numTables___spec__25(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Multiset_filter___at_p70__main_cutEdges___spec__2___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_sumCompl___at_p59__main_numTables___spec__21___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_sumCompl___at_p59__main_numTables___spec__27___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_ofSubtype___at_p59__main_numTables___spec__24___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_p73__main_gdeg(lean_object*);
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p59__main_numTables___spec__14(lean_object*, lean_object*, lean_object*, lean_object*, size_t, size_t, lean_object*);
+LEAN_EXPORT lean_object* l_p73__main_gdeg___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_sumCompl___at_p59__main_numTables___spec__27(lean_object*);
 lean_object* l_instDecidableEqFin___rarg___boxed(lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_p58__main_usedHotels(lean_object*, lean_object*);
@@ -66,6 +68,7 @@ LEAN_EXPORT lean_object* l_Equiv_Perm_cycleOf___at_p59__main_numTables___spec__2
 LEAN_EXPORT lean_object* l_Multiset_dedup___at_p58__main_usedHotels___spec__3___boxed(lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_List_foldrTR___at_p59__main_numTables___spec__12___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Multiset_dedup___at_p59__main_numTables___spec__9___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_p73__main_gdeg___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Finset_image___at_p58__main_usedHotels___spec__1___boxed(lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_List_dedup___at_p58__main_usedHotels___spec__4(lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_cycleFactorsFinset___at_p59__main_numTables___spec__6(lean_object*, lean_object*);
@@ -73,9 +76,7 @@ LEAN_EXPORT lean_object* l_List_pwFilter___at_p58__main_usedHotels___spec__5(lea
 LEAN_EXPORT lean_object* l_Multiset_filter___at_p70__main_cutEdges___spec__2(lean_object*);
 LEAN_EXPORT lean_object* l_List_toFinset___at_p59__main_numTables___spec__7(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p59__main_numTables___spec__13___lambda__1___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_gdeg___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_List_dedup___at_p59__main_numTables___spec__10___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_neighFinset___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p58__main_usedHotels___spec__8___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 lean_object* l_Equiv_trans___rarg(lean_object*, lean_object*);
 lean_object* l_List_lengthTRAux___rarg(lean_object*, lean_object*);
@@ -93,6 +94,7 @@ LEAN_EXPORT lean_object* l_Equiv_Perm_cycleOf___at_p59__main_numTables___spec__2
 LEAN_EXPORT lean_object* l_Finset_filter___at_p59__main_numTables___spec__3(lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_truncCycleFactors___at_p59__main_numTables___spec__15(lean_object*, lean_object*);
 lean_object* l_Equiv_symm___rarg(lean_object*);
+LEAN_EXPORT lean_object* l_p73__main_neighFinset___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
 static lean_object* l_Equiv_Perm_cycleFactorsAux___at_p59__main_numTables___spec__16___closed__1;
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p58__main_usedHotels___spec__7___lambda__1___boxed(lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_p70__main_deg___rarg(lean_object*, lean_object*, lean_object*, lean_object*);
@@ -106,12 +108,10 @@ lean_object* l_Equiv_Perm_instDecidableRelSameCycleOfFintypeOfDecidableEq___rarg
 LEAN_EXPORT lean_object* l_List_filterTR_loop___at_p70__main_cutEdges___spec__3___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_p70__main_neighFinset(lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_cycleOf___at_p59__main_numTables___spec__17(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_neighFinset___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Finset_filter___at_p59__main_numTables___spec__3___boxed(lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p58__main_usedHotels___spec__7(lean_object*, lean_object*, size_t, size_t, lean_object*);
 LEAN_EXPORT lean_object* l_Multiset_filter___at_p70__main_cutEdges___spec__2___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Array_foldrMUnsafe_fold___at_p59__main_numTables___spec__14___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_neighFinset(lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_cycleType___at_p59__main_numTables___spec__1(lean_object*, lean_object*);
 lean_object* l_Equiv_equivCongr___elambda__2___rarg(lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_subtypeCongr___at_p59__main_numTables___spec__26(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
@@ -120,12 +120,12 @@ size_t lean_usize_sub(size_t, size_t);
 static lean_object* l_Equiv_Perm_extendDomain___at_p59__main_numTables___spec__19___closed__1;
 lean_object* l_Function_comp___rarg(lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Multiset_filter___at_p59__main_numTables___spec__4___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_p73__main_neighFinset(lean_object*);
 LEAN_EXPORT lean_object* l_Finset_filter___at_p70__main_cutEdges___spec__1___rarg(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT uint8_t l_Array_foldrMUnsafe_fold___at_p58__main_usedHotels___spec__7___lambda__1(lean_object*, lean_object*);
 lean_object* lean_array_uget(lean_object*, size_t);
 LEAN_EXPORT lean_object* l_Equiv_Perm_ofSubtype___at_p59__main_numTables___spec__18___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
 LEAN_EXPORT lean_object* l_Equiv_Perm_extendDomain___at_p59__main_numTables___spec__19___boxed(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_gdeg___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
 lean_object* l_List_finRange(lean_object*);
 lean_object* l_Equiv_refl(lean_object*);
 lean_object* l_List_redLength___rarg(lean_object*);
@@ -1709,7 +1709,7 @@ lean_dec(x_2);
 return x_6;
 }
 }
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_neighFinset___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+LEAN_EXPORT lean_object* l_p73__main_neighFinset___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
 _start:
 {
 lean_object* x_5; lean_object* x_6; 
@@ -1718,47 +1718,47 @@ x_6 = l_Multiset_filter___rarg(x_5, x_1);
 return x_6;
 }
 }
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_neighFinset(lean_object* x_1) {
+LEAN_EXPORT lean_object* l_p73__main_neighFinset(lean_object* x_1) {
 _start:
 {
 lean_object* x_2; 
-x_2 = lean_alloc_closure((void*)(l_p73__main_Lovasz22_neighFinset___rarg___boxed), 4, 0);
+x_2 = lean_alloc_closure((void*)(l_p73__main_neighFinset___rarg___boxed), 4, 0);
 return x_2;
 }
 }
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_neighFinset___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+LEAN_EXPORT lean_object* l_p73__main_neighFinset___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
 _start:
 {
 lean_object* x_5; 
-x_5 = l_p73__main_Lovasz22_neighFinset___rarg(x_1, x_2, x_3, x_4);
+x_5 = l_p73__main_neighFinset___rarg(x_1, x_2, x_3, x_4);
 lean_dec(x_2);
 return x_5;
 }
 }
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_gdeg___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+LEAN_EXPORT lean_object* l_p73__main_gdeg___rarg(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
 _start:
 {
 lean_object* x_5; lean_object* x_6; lean_object* x_7; 
-x_5 = l_p73__main_Lovasz22_neighFinset___rarg(x_1, x_2, x_3, x_4);
+x_5 = l_p73__main_neighFinset___rarg(x_1, x_2, x_3, x_4);
 x_6 = lean_unsigned_to_nat(0u);
 x_7 = l_List_lengthTRAux___rarg(x_5, x_6);
 lean_dec(x_5);
 return x_7;
 }
 }
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_gdeg(lean_object* x_1) {
+LEAN_EXPORT lean_object* l_p73__main_gdeg(lean_object* x_1) {
 _start:
 {
 lean_object* x_2; 
-x_2 = lean_alloc_closure((void*)(l_p73__main_Lovasz22_gdeg___rarg___boxed), 4, 0);
+x_2 = lean_alloc_closure((void*)(l_p73__main_gdeg___rarg___boxed), 4, 0);
 return x_2;
 }
 }
-LEAN_EXPORT lean_object* l_p73__main_Lovasz22_gdeg___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+LEAN_EXPORT lean_object* l_p73__main_gdeg___rarg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
 _start:
 {
 lean_object* x_5; 
-x_5 = l_p73__main_Lovasz22_gdeg___rarg(x_1, x_2, x_3, x_4);
+x_5 = l_p73__main_gdeg___rarg(x_1, x_2, x_3, x_4);
 lean_dec(x_2);
 return x_5;
 }
