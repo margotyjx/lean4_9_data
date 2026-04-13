@@ -12,7 +12,7 @@ open MeasureTheory
 /-- Dataset placeholder: some rows reference this name without a full definition in the source JSONL. -/
 noncomputable def integralOverSquareBoundary : ℂ := 0
 
-namespace p266_main
+namespace p291_main
 structure ExactFiniteComplex
     (𝕜 : Type*) [Field 𝕜]
     (m : ℕ)
@@ -37,9 +37,9 @@ theorem Tu_1
     ∑ k in Finset.range (m + 1),
       (-1 : ℤ) ^ k * (FiniteDimensional.finrank 𝕜 (A k) : ℤ) = 0 := by
   sorry
-end p266_main
+end p291_main
 
-namespace p267_main
+namespace p292_main
 variable {E : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E] [FiniteDimensional ℝ E]
 variable {H : Type*} [TopologicalSpace H] (I : ModelWithCorners ℝ E H)
 variable {M : Type*} [TopologicalSpace M] [ChartedSpace H M] [SmoothManifoldWithCorners I M]
@@ -55,9 +55,9 @@ theorem exists_fixed_point_free_homotopic_to_id
     (∀ x, F x ≠ x) :=
 by
   sorry
-end p267_main
+end p292_main
 
-namespace p268_main
+namespace p293_main
 theorem Hatcher_3 (n : ℕ) :
   ∃ H :
       ContinuousMap
@@ -69,9 +69,9 @@ theorem Hatcher_3 (n : ℕ) :
         ‖x.1‖ = 1 →
         ∀ t : Set.Icc (0 : ℝ) 1, H (x, t) = x) := by
   sorry
-end p268_main
+end p293_main
 
-namespace p271_main
+namespace p296_main
 theorem ham_sandwich_three_sets
   (A : Fin 3 → Set (Fin 3 → ℝ))
   (h_compact : ∀ i, IsCompact (A i)) :
@@ -81,9 +81,9 @@ theorem ham_sandwich_three_sets
       MeasureTheory.volume (A i ∩ {x | Matrix.dotProduct u x ≤ c})
         = MeasureTheory.volume (A i) / 2 := by
   sorry
-end p271_main
+end p296_main
 
-namespace p273_main
+namespace p298_main
 theorem union_convex_simply_connected
   (m n : ℕ)
   (S : Fin n → Set (Fin m → ℝ))
@@ -91,9 +91,9 @@ theorem union_convex_simply_connected
   (h_inter : ∀ i j k, (S i ∩ S j ∩ S k).Nonempty) :
   SimplyConnectedSpace (⋃ i, S i) := by
   sorry
-end p273_main
+end p298_main
 
-namespace p274_main
+namespace p299_main
 def p₁ : Fin 3 → ℝ := ![-1, 0, 0]
 def p₂ : Fin 3 → ℝ := ![1, 0, 0]
 def bad_points : Set (Fin 3 → ℝ) := {p₁, p₂}
@@ -102,9 +102,9 @@ theorem r3_minus_two_points_simply_connected :
   SimplyConnectedSpace { x : Fin 3 → ℝ // x ∉ bad_points } :=
 by
   sorry
-end p274_main
+end p299_main
 
-namespace p289_main
+namespace p314_main
 structure CupProductData :=
   (H1 H2 : Type*)
   [H1_group : AddCommGroup H1]
@@ -150,9 +150,9 @@ theorem Hatcher_24
     NoWedgeDecomposition Cor ∧
     NoWedgeDecompositionMod2 Cnon := by
   sorry
-end p289_main
+end p314_main
 
-namespace p290_main
+namespace p315_main
 def IsOneDimManifoldNoHausdorff (X : Type*) [TopologicalSpace X] : Prop :=
   ∃ (U : Set (Set X)),
     (∀ s ∈ U, ∃ t : Set ℝ, IsOpen s ∧ IsOpen t ∧ ∃ h : s ≃ₜ t, True) ∧
@@ -168,5 +168,5 @@ theorem Hatcher_25 :
   ∃ (X : Type*) (_ : TopologicalSpace X),
     IsOneDimManifoldNoHausdorff X ∧ IsNonorientable X := by
   sorry
-end p290_main
+end p315_main
 

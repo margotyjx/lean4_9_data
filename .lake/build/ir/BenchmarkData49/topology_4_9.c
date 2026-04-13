@@ -13,23 +13,23 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-LEAN_EXPORT lean_object* l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p274__main_bad__points___spec__1;
-LEAN_EXPORT lean_object* l_p274__main_p_u2082(lean_object*);
+LEAN_EXPORT lean_object* l_p299__main_p_u2082___boxed(lean_object*);
 extern lean_object* l___private_Mathlib_Data_Real_Basic_0__Real_zero;
-static lean_object* l_p274__main_p_u2081___closed__3;
+static lean_object* l_p299__main_p_u2081___closed__1;
 lean_object* l_Real_definition____x40_Mathlib_Data_Real_Basic___hyg_906_(lean_object*);
-LEAN_EXPORT lean_object* l_p274__main_bad__points;
-LEAN_EXPORT lean_object* l_p274__main_p_u2081(lean_object*);
-static lean_object* l_p274__main_p_u2081___closed__4;
+static lean_object* l_p299__main_p_u2081___closed__2;
 lean_object* l_Matrix_vecEmpty___boxed(lean_object*, lean_object*);
 extern lean_object* l___private_Mathlib_Data_Real_Basic_0__Real_one;
-static lean_object* l_p274__main_p_u2081___closed__2;
+LEAN_EXPORT lean_object* l_p299__main_p_u2081(lean_object*);
+static lean_object* l_p299__main_p_u2081___closed__4;
+LEAN_EXPORT lean_object* l_p299__main_bad__points;
+LEAN_EXPORT lean_object* l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p299__main_bad__points___spec__1;
+LEAN_EXPORT lean_object* l_p299__main_p_u2081___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_p299__main_p_u2082(lean_object*);
 lean_object* l_Fin_cases(lean_object*, lean_object*, lean_object*, lean_object*, lean_object*);
-LEAN_EXPORT lean_object* l_p274__main_p_u2081___boxed(lean_object*);
-LEAN_EXPORT lean_object* l_p274__main_p_u2082___boxed(lean_object*);
-static lean_object* l_p274__main_p_u2081___closed__1;
 lean_object* l_Matrix_vecCons___rarg___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
-static lean_object* _init_l_p274__main_p_u2081___closed__1() {
+static lean_object* l_p299__main_p_u2081___closed__3;
+static lean_object* _init_l_p299__main_p_u2081___closed__1() {
 _start:
 {
 lean_object* x_1; lean_object* x_2; 
@@ -38,7 +38,7 @@ x_2 = l_Real_definition____x40_Mathlib_Data_Real_Basic___hyg_906_(x_1);
 return x_2;
 }
 }
-static lean_object* _init_l_p274__main_p_u2081___closed__2() {
+static lean_object* _init_l_p299__main_p_u2081___closed__2() {
 _start:
 {
 lean_object* x_1; 
@@ -47,13 +47,13 @@ lean_closure_set(x_1, 0, lean_box(0));
 return x_1;
 }
 }
-static lean_object* _init_l_p274__main_p_u2081___closed__3() {
+static lean_object* _init_l_p299__main_p_u2081___closed__3() {
 _start:
 {
 lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
 x_1 = lean_unsigned_to_nat(0u);
 x_2 = l___private_Mathlib_Data_Real_Basic_0__Real_zero;
-x_3 = l_p274__main_p_u2081___closed__2;
+x_3 = l_p299__main_p_u2081___closed__2;
 x_4 = lean_alloc_closure((void*)(l_Matrix_vecCons___rarg___boxed), 4, 3);
 lean_closure_set(x_4, 0, x_1);
 lean_closure_set(x_4, 1, x_2);
@@ -61,13 +61,13 @@ lean_closure_set(x_4, 2, x_3);
 return x_4;
 }
 }
-static lean_object* _init_l_p274__main_p_u2081___closed__4() {
+static lean_object* _init_l_p299__main_p_u2081___closed__4() {
 _start:
 {
 lean_object* x_1; lean_object* x_2; lean_object* x_3; lean_object* x_4; 
 x_1 = lean_unsigned_to_nat(1u);
 x_2 = l___private_Mathlib_Data_Real_Basic_0__Real_zero;
-x_3 = l_p274__main_p_u2081___closed__3;
+x_3 = l_p299__main_p_u2081___closed__3;
 x_4 = lean_alloc_closure((void*)(l_Matrix_vecCons___rarg___boxed), 4, 3);
 lean_closure_set(x_4, 0, x_1);
 lean_closure_set(x_4, 1, x_2);
@@ -75,53 +75,53 @@ lean_closure_set(x_4, 2, x_3);
 return x_4;
 }
 }
-LEAN_EXPORT lean_object* l_p274__main_p_u2081(lean_object* x_1) {
+LEAN_EXPORT lean_object* l_p299__main_p_u2081(lean_object* x_1) {
 _start:
 {
 lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
 x_2 = lean_unsigned_to_nat(2u);
-x_3 = l_p274__main_p_u2081___closed__1;
-x_4 = l_p274__main_p_u2081___closed__4;
+x_3 = l_p299__main_p_u2081___closed__1;
+x_4 = l_p299__main_p_u2081___closed__4;
 x_5 = l_Fin_cases(x_2, lean_box(0), x_3, x_4, x_1);
 return x_5;
 }
 }
-LEAN_EXPORT lean_object* l_p274__main_p_u2081___boxed(lean_object* x_1) {
+LEAN_EXPORT lean_object* l_p299__main_p_u2081___boxed(lean_object* x_1) {
 _start:
 {
 lean_object* x_2; 
-x_2 = l_p274__main_p_u2081(x_1);
+x_2 = l_p299__main_p_u2081(x_1);
 lean_dec(x_1);
 return x_2;
 }
 }
-LEAN_EXPORT lean_object* l_p274__main_p_u2082(lean_object* x_1) {
+LEAN_EXPORT lean_object* l_p299__main_p_u2082(lean_object* x_1) {
 _start:
 {
 lean_object* x_2; lean_object* x_3; lean_object* x_4; lean_object* x_5; 
 x_2 = lean_unsigned_to_nat(2u);
 x_3 = l___private_Mathlib_Data_Real_Basic_0__Real_one;
-x_4 = l_p274__main_p_u2081___closed__4;
+x_4 = l_p299__main_p_u2081___closed__4;
 x_5 = l_Fin_cases(x_2, lean_box(0), x_3, x_4, x_1);
 return x_5;
 }
 }
-LEAN_EXPORT lean_object* l_p274__main_p_u2082___boxed(lean_object* x_1) {
+LEAN_EXPORT lean_object* l_p299__main_p_u2082___boxed(lean_object* x_1) {
 _start:
 {
 lean_object* x_2; 
-x_2 = l_p274__main_p_u2082(x_1);
+x_2 = l_p299__main_p_u2082(x_1);
 lean_dec(x_1);
 return x_2;
 }
 }
-static lean_object* _init_l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p274__main_bad__points___spec__1() {
+static lean_object* _init_l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p299__main_bad__points___spec__1() {
 _start:
 {
 return lean_box(0);
 }
 }
-static lean_object* _init_l_p274__main_bad__points() {
+static lean_object* _init_l_p299__main_bad__points() {
 _start:
 {
 return lean_box(0);
@@ -144,16 +144,16 @@ lean_dec_ref(res);
 res = initialize_Aesop(builtin, lean_io_mk_world());
 if (lean_io_result_is_error(res)) return res;
 lean_dec_ref(res);
-l_p274__main_p_u2081___closed__1 = _init_l_p274__main_p_u2081___closed__1();
-lean_mark_persistent(l_p274__main_p_u2081___closed__1);
-l_p274__main_p_u2081___closed__2 = _init_l_p274__main_p_u2081___closed__2();
-lean_mark_persistent(l_p274__main_p_u2081___closed__2);
-l_p274__main_p_u2081___closed__3 = _init_l_p274__main_p_u2081___closed__3();
-lean_mark_persistent(l_p274__main_p_u2081___closed__3);
-l_p274__main_p_u2081___closed__4 = _init_l_p274__main_p_u2081___closed__4();
-lean_mark_persistent(l_p274__main_p_u2081___closed__4);
-l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p274__main_bad__points___spec__1 = _init_l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p274__main_bad__points___spec__1();
-l_p274__main_bad__points = _init_l_p274__main_bad__points();
+l_p299__main_p_u2081___closed__1 = _init_l_p299__main_p_u2081___closed__1();
+lean_mark_persistent(l_p299__main_p_u2081___closed__1);
+l_p299__main_p_u2081___closed__2 = _init_l_p299__main_p_u2081___closed__2();
+lean_mark_persistent(l_p299__main_p_u2081___closed__2);
+l_p299__main_p_u2081___closed__3 = _init_l_p299__main_p_u2081___closed__3();
+lean_mark_persistent(l_p299__main_p_u2081___closed__3);
+l_p299__main_p_u2081___closed__4 = _init_l_p299__main_p_u2081___closed__4();
+lean_mark_persistent(l_p299__main_p_u2081___closed__4);
+l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p299__main_bad__points___spec__1 = _init_l_Insert_insert____x40_Mathlib_Data_Set_Defs___hyg_19____at_p299__main_bad__points___spec__1();
+l_p299__main_bad__points = _init_l_p299__main_bad__points();
 return lean_io_result_mk_ok(lean_box(0));
 }
 #ifdef __cplusplus

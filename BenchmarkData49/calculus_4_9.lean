@@ -78,25 +78,22 @@ end p34_main
 
 namespace p35_main
 theorem dawkins_5_2_6
-  (C : ℝ) :
-  ∀ x : ℝ,
-  ∫ t : ℝ, t^(1/3) + 10 * t^(3/5) = (3/4) * x^(4/3) + (25/4) * x^(8/5) + C := by
+  (C : ℝ) (x : ℝ) :
+  (∫ (t : ℝ) in (0 : ℝ)..x, t^(1/3) + 10 * t^(3/5)) = (3/4) * x^(4/3) + (25/4) * x^(8/5) + C := by
 sorry
 end p35_main
 
 namespace p36_main
 theorem dawkins_5_3_8
-  (C : ℝ) :
-  ∀ x : ℝ,
-  ∫ t : ℝ, (5 * t - 3 * t^5) * exp (t^6 - 5 * t^2) = -1/2 * exp (x^6 - 5 * x^2) + C := by
+  (C : ℝ) (x : ℝ) :
+  (∫ (t : ℝ) in (0 : ℝ)..x, (5 * t - 3 * t^5) * exp (t^6 - 5 * t^2)) = -1/2 * exp (x^6 - 5 * x^2) + C := by
 sorry
 end p36_main
 
 namespace p37_main
 theorem strang_7_1_13
-  (C : ℝ) :
-  ∀ x : ℝ,
-  ∫ t : ℝ, sin (log t) = x / 2 * (sin (log x) - cos (log x)) + C := by
+  (C : ℝ) (x : ℝ) :
+  (∫ (t : ℝ) in (0 : ℝ)..x, sin (log t)) = x / 2 * (sin (log x) - cos (log x)) + C := by
 sorry
 end p37_main
 
@@ -109,9 +106,8 @@ end p38_main
 
 namespace p39_main
 theorem strang_7_2_25
-  (C : ℝ) :
-  ∀ x : ℝ,
-  ∫ t : ℝ, cos t * sin (2 * t) = - (2 / 3) * (cos x) ^ 3 + C := by
+  (C : ℝ) (x : ℝ) :
+  (∫ (t : ℝ) in (0 : ℝ)..x, cos t * sin (2 * t)) = - (2 / 3) * (cos x) ^ 3 + C := by
 sorry
 end p39_main
 
@@ -132,9 +128,9 @@ end p41_main
 
 namespace p42_main
 theorem strang_7_3_33
-  (C : ℝ) {n : ℕ} (hn : n ≠ 0) :
-  ∀ x : ℝ,
-  (∫ t : ℝ, t^(n+1) / (t^2 + 1)) = x^n / n - (∫ t : ℝ, t^(n-1) / (t^2 + 1)) + C := by
+  (C : ℝ) {n : ℕ} (hn : n ≠ 0) (x : ℝ) :
+  (∫ (t : ℝ) in (0 : ℝ)..x, t^(n+1) / (t^2 + 1)) =
+    x^n / n - (∫ (t : ℝ) in (0 : ℝ)..x, t^(n-1) / (t^2 + 1)) + C := by
 sorry
 end p42_main
 
@@ -155,15 +151,14 @@ end p44_main
 namespace p45_main
 theorem strang_9_4_30
  (θ : ℝ) :
-  Real.cos θ = (Complex.exp (Complex.I * θ) + Complex.exp (-Complex.I * θ)) / 2 := by
+  (Real.cos θ : ℂ) = (Complex.exp (Complex.I * θ) + Complex.exp (-Complex.I * θ)) / 2 := by
 sorry
 end p45_main
 
 namespace p46_main
 theorem strang_9_4_34
   (x : ℝ) :
-  Complex.cos (Complex.I * x) = (Real.cosh x : ℂ) ∧
-    Complex.sin (Complex.I * x) = Complex.I * (Real.sinh x : ℂ) := by
+  Complex.cos (Complex.I * x) = Complex.cosh x ∧ Complex.sin (Complex.I * x) = Complex.I * Complex.sinh x := by
 sorry
 end p46_main
 
@@ -178,8 +173,8 @@ end p47_main
 namespace p48_main
 theorem strang_13_2_8
   (x y : ℝ) :
-  (HasDerivAt (λ x0 => Real.log (x0 + 2 * y)) (1 / (x + 2 * y)) x) ∧
-  (HasDerivAt (λ y0 => Real.log (x + 2 * y0)) (2 / (x + 2 * y)) y) := by
+  (HasDerivAt (λ x0 => log (x0 + 2 * y)) (1 / (x + 2 * y)) x) ∧
+  (HasDerivAt (λ y0 => log (x + 2 * y0)) (2 / (x + 2 * y)) y) := by
 sorry
 end p48_main
 
