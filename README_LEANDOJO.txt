@@ -1,4 +1,4 @@
-LeanDojo package generated from data_4_9 (310 theorems).
+LeanDojo package generated from data_4_9 (320 theorems).
 
 Export: full dataset (all categories, every row in prover_problems.jsonl)
 
